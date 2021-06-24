@@ -44,7 +44,7 @@ To run the code just import the module, create a flock using the `Flock` class a
 ### Todo
  - Get coherence force to work over periodic boundaries (doesn't make much difference for now).
  - Build a Google colab notebook with some ready made simulations.
- - Swap to a more flexible animation tool (with smaller videos saves, ~25 MB seems large)
+ - Swap to a more flexible animation tool (with smaller videos saves, ~25 MB seems large, and COLOUR)
 
 ## Boid gif dump
 Just a collection of cool looking simulations:
