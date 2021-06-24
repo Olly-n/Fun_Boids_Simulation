@@ -221,7 +221,6 @@ class Flock():
         else:
             self.flock_pos_tree = cKDTree(self.flock_pos)
 
-        # self.flock_pos = np.array([[0,19],[0,-19]])
         self.flock_sight_radius = sight_radius
 
         for i in range(N):
@@ -311,7 +310,7 @@ def animate_flock_scatter(flock, step_size=0.1, frames=100, pre_compute=False, c
 
     ani = animation.FuncAnimation(fig, animate, frames=frames,
                                   interval=interval, blit=False)
-    # plt.show()
+    plt.show()
 
 def animate_flock_quiver(flock, step_size=0.1, frames=None, pre_compute=False, continuous=True, save = False):
     """Animate a flock using a quiver plot showing that shows the boids' velocities as well as positions.
@@ -378,7 +377,7 @@ def animate_flock_quiver(flock, step_size=0.1, frames=None, pre_compute=False, c
 #             max_acceleration=1.,
 #             boundary_type="periodic",
 #             boundary=(-20., 20., -20., 20.),
-#             sight_radius=4.,
+#             sight_radius=2.,
 #             seperation_factor=30.,
 #             alignment_factor=30.,
 #             cohesion_factor=30.,
