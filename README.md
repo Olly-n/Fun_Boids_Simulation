@@ -1,9 +1,9 @@
 # Fun Boids Simulations
 
-![](Gifs/boids_2000_periodic_2.gif) ![](Gifs/boids_close_pack.gif)
-
 ## TL;DR
 This project is just a little fun I had over a rainy weekend. I primarily made it to play around with boids simulations, agent-based modelling and make some aesthetically pleasing animations. It is a relatively efficient simulation using a K-D tree and NumPy arrays. I might try to extend it or do some real analysis on phase transitions in future.
+
+![](Gifs/boids_2000_periodic_2.gif) ![](Gifs/boids_close_pack.gif)
 
 ## Basic theory
 A boids simulation is a simulation of the flocking behaviours of a large group of animals such as bird/bats or fish. A boid is a simulated member of the flock and uses observations of other boids within a radius $S$ to determine its dynamics. In this simulation the dynamics are determined by 3 main factors which combine to create an effective force. These factors are: 
