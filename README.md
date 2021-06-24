@@ -10,8 +10,8 @@ A boids simulation is a simulation of the flocking behaviours of a large group o
  1. Separation - a repulsive force that is based on the proximity to other boids around it (theoretically this should be inversely proportional to local separation but I found the results looked nicer with a direct proportionality but both are available in the code)
  2. Alignment - an attractive force that aligns the boids velocity with that  of the local group
  3. Cohesion - a force that pulls towards the centre of mass of the local group that in effect helps attract local boids together
- Each of these effective forces has a weighting factor that can be changed to give them more or less strength during the calculations of apparent force.
- By following these simple rules the flock can exhibit very complex behaviours which seem to very accurately mimic real world animals.
+
+Each of these effective forces has a weighting factor that can be changed to give them more or less strength during the calculations of apparent force. By following these simple rules the flock can exhibit very complex behaviours which seem to very accurately mimic real world animals.
 
 ## Implementation
 This code uses ideas from agent-based modelling, where each boid is an individual and a flock is build from many individuals which are capable of interacting with each other. Using agents has the additional benefit that it is very easy to introduce new properties to the agents at a later date. 
