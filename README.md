@@ -20,7 +20,7 @@ The code is relatively well optimised using a K-D tree for nearest neighbour ret
 
 ## Running
 The code is written in python 3.6 and the requirements can be found in the requirements.txt file.
-To run the code just import the module, create a flock using the `Flock` class and then use either `animate_flock_quiver` or `animate_flock_scatter` functions to animate. Alternatively, uncomment the last two functions of the script and change the parameter there and then run directly in the terminal/cmd.
+To run the code just import the module, create a flock using the `Flock` class and then use either `animate_flock_quiver` or `animate_flock_scatter` functions to animate. Alternatively, uncomment the last two functions of the script, change the parameter there and then run directly in the terminal/cmd.
 
 ## Files
 `boids.py`: Code for boids simulation
